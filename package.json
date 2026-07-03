@@ -1,0 +1,61 @@
+{
+  "name": "nuxt-skeletonizer",
+  "version": "0.1.0",
+  "description": "Automatic skeleton UI for Nuxt 4 — turn any component into a layout-preserving skeleton. The Vue/Nuxt equivalent of Flutter Skeletonizer.",
+  "license": "MIT",
+  "author": "CodeCube0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeCube0/nuxt-skeletonizer.git"
+  },
+  "homepage": "https://github.com/CodeCube0/nuxt-skeletonizer#readme",
+  "bugs": {
+    "url": "https://github.com/CodeCube0/nuxt-skeletonizer/issues"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "vue",
+    "skeleton",
+    "skeleton-loader",
+    "skeletonizer",
+    "shimmer",
+    "loading",
+    "placeholder",
+    "ui"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.mts",
+      "import": "./dist/module.mjs"
+    },
+    "./runtime/*": "./dist/runtime/*",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/module.mjs",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/types.d.mts"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "dependencies": {
+    "@nuxt/kit": "^4.4.7",
+    "defu": "^6.1.7"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "sideEffects": false,
+  "type": "module"
+}
