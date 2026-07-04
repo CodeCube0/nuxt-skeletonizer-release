@@ -4,6 +4,7 @@
 > The Vue/Nuxt equivalent of Flutter's [Skeletonizer](https://pub.dev/packages/skeletonizer).
 
 [![npm version](https://img.shields.io/npm/v/nuxt-skeletonizer.svg)](https://www.npmjs.com/package/nuxt-skeletonizer)
+[![npm downloads](https://img.shields.io/npm/dm/nuxt-skeletonizer.svg)](https://www.npmjs.com/package/nuxt-skeletonizer)
 [![license](https://img.shields.io/npm/l/nuxt-skeletonizer.svg)](./LICENSE)
 
 ---
