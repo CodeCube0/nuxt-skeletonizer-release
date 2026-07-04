@@ -7,6 +7,14 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-07-04
+
+### Changed
+
+- `repository`/`bugs` now point to the release repo
+  (`https://github.com/CodeCube0/nuxt-skeletonizer-release`), which mirrors exactly what gets
+  published, instead of the development monorepo.
+
 ## [0.1.1] - 2026-07-04
 
 ### Changed
